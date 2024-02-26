@@ -1,11 +1,13 @@
 import './style.css'
 import { Navbar } from '../../components/Navbar'
 import { Footer } from '../../components/Footer'
+import { Banner } from '../../components/Banner'
 
 export function FAQ() {
     return (
         <div>
             <Navbar></Navbar>
+            <Banner></Banner>
             <div className='faq-items'>
                 <h2>Perguntas Frequentes</h2>
 
