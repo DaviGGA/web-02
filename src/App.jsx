@@ -1,15 +1,13 @@
-import { Navbar } from './components/Navbar'
-import { Banner } from './components/Banner'
-import { CategoriesBar } from './components/CategoriesBar'
-import { CoursesList } from './components/CoursesList'
-import { Homepage } from './pages/Homepage'
+import { Signin } from './pages/Signin'
+import { Footer } from './components/Footer'
+import { FAQ } from './pages/FAQ'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <Homepage></Homepage>
+      <FAQ></FAQ>
     </>
   )
 }

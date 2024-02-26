@@ -1,9 +1,9 @@
 import './style.css'
 
-export function Card() {
+export function Card(props) {
     return (
-        <div className='card'>
-
+        <div style={{ width: props.width }} className={'card ' + (props.className ?? '')}>
+            { props.children }
         </div>
     )
 }
