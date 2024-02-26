@@ -21,6 +21,12 @@
     color: #676767;
 }
 
+.course-rating {
+    display: flex;
+    align-items: baseline;
+    gap: .5rem;
+}
+
 .course-rating-stars {
-    color: #fcba03
+    color: #fcba03;
 }

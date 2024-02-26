@@ -11,14 +11,14 @@ export function CourseIcon(props) {
             <p className='text course-name'>{props.name}</p>
             <p className='text course-author'>{props.author}</p>
             <div className='course-rating'>
+                <p className='course-rating-number'>{props.rate}</p>
                 <div className='course-rating-stars'>
                     <FaStar></FaStar>
                     <FaStar></FaStar>
                     <FaStar></FaStar>
                     <FaRegStar></FaRegStar>
                     <FaRegStar></FaRegStar>
-                </div>
-                <p className='course-rating-number'>{props.rate}</p>
+                </div>    
             </div>
         </div>
     )
