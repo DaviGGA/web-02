@@ -1,0 +1,16 @@
+.bg {
+    background: linear-gradient(179.39deg, #D1D1D1 0.53%, #FFFFFF 26.65%);
+}
+
+.course-list {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    
+}
+

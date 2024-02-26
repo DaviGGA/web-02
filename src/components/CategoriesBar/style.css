@@ -1,0 +1,25 @@
+.categories-list {
+    display: flex;
+    align-items: baseline;
+    gap: 2rem;
+    background-color: #fff;
+    width: 100%;
+    height: 5rem;
+}
+
+.list {
+    color: #000;
+    font-weight: 500;
+    gap: 1rem;
+    display: flex;
+}
+
+.list-item {
+    cursor: pointer;
+}
+
+.categories-text {
+    margin-left: 4%;
+    color: #000;
+    font-size: 1.5rem;
+}
