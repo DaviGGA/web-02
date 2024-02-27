@@ -4,6 +4,12 @@ import { FormInput } from '../../components/FormInput'
 import { Button } from '../../components/Button'
 
 export function Signin() {
+
+    function handleClickSignup(e) {
+        e.preventDefault();
+        window.location.href = '/'
+    }
+
     return (
         <div className='sign-in'>
             <div  className="card-wrapper" >      
@@ -19,7 +25,8 @@ export function Signin() {
                             <Button
                                 className="form-button"
                                 text="Cadastrar-se"
-                                backgroundColor="#000">
+                                backgroundColor="#000"
+                                onClick={handleClickSignup}>
                             </Button>             
                         </div>
                     </form>

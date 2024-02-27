@@ -4,10 +4,14 @@ import { SearchBar } from '../Searchbar'
 
 
 export function Navbar() {
+    function handleCLickPlatformName() {
+        window.location.href = '/'
+    }
+
     return (
         <div className='nav-background'>
             <div className="navbar">
-                <h4 className="platform-name">Nome</h4>
+                <h4 onClick={handleCLickPlatformName} className="platform-name">Nome</h4>
                 <SearchBar></SearchBar>
                 <Button text="Entrar"></Button>
             </div>
