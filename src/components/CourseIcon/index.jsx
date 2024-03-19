@@ -2,11 +2,13 @@ import './style.css';
 import { FaRegStar } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa6";
 
-
+function handleCourseIconClick() {
+    window.location.href = './course'
+}
 
 export function CourseIcon(props) {
     return (
-        <div className='course-block'>
+        <div onClick={handleCourseIconClick} className='course-block'>
             <img className='course-img' src={props.img} alt=""/>
             <p className='text course-name'>{props.name}</p>
             <p className='text course-author'>{props.author}</p>

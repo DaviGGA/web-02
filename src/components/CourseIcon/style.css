@@ -1,6 +1,7 @@
 .course-block {
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .course-img {
