@@ -25,7 +25,6 @@ export function Signin() {
                             <Button
                                 className="form-button"
                                 text="Cadastrar-se"
-                                backgroundColor="#000"
                                 onClick={handleClickSignup}>
                             </Button>             
                         </div>

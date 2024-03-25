@@ -1,5 +1,6 @@
 import { Navbar } from '../../components/Navbar'
 import { Footer } from '../../components/Footer'
+import { Chat } from '../../components/Chat'
 import courseVideo from '../../assets/video-ex.mp4'
 import './style.css'
 
@@ -51,6 +52,7 @@ export function CoursePage() {
 
                 <p className='course-description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam modi tenetur error, vel temporibus exercitationem, cum repudiandae ipsa sit deserunt harum non dicta doloribus veritatis ratione vero dolorum iusto quibusdam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam modi tenetur error, vel temporibus exercitationem, cum repudiandae ipsa sit deserunt harum non dicta doloribLorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam modi tenetur error, vel temporibus exercitationem, cum repudiandae ipsa sit deserunt harum non dicta doloribLorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam modi tenetur error, vel temporibus exercitationem, cum repudiandae ipsa sit deserunt harum non dicta dolorib</p>
             </div>
+            <Chat></Chat>
             <Footer></Footer>
         </div>
     )
