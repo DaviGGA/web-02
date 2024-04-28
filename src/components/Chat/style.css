@@ -1,34 +1,28 @@
-.chat-container {
-    height: auto;
-    width: 100%;
-    border: 1px solid #ccc;
-    padding: 10px;
+
+.comment-subject {
+   font-weight: bold;
+   font-style: italic;
+   margin-bottom: 5px;
+   width: 90%;
+}
+.comment-input {
+   background-color: #2C2C2C;
+   width: 80%;
+   resize: none;
+   color: white;
+}
+
+button {
+   color: #820AD1;
+
+}
+
+ .comment-list {
+   padding: 0 0 0 6px;
+   width: 80%;
+   font-weight:lighter;
+   
  }
- 
- .comment-box {
-    background-color: #f9f9f9;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
- }
- 
- .comment-author {
-    font-weight: bold;
-    margin-bottom: 5px;
- }
- 
- .comment-subject {
-    font-style: italic;
-    margin-bottom: 5px;
- }
- 
- .comment-input {
-    height: auto;
-    width: 100%;
-    resize: none;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 5px;
-    box-sizing: border-box;
- }
- 
+
+
+  

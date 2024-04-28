@@ -1,36 +1,6 @@
-
-.sign-in {
-    height: 100vh;
-}
-
-.signin-form {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-.card-wrapper {
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.form-title {
-    font-size: 1.5rem;
-}
-
-.button-wrapper {
-    align-self: end;
-}
-
-.form-button {
-    margin-top: .75rem;
-}
-
-.justify-between {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+.separador {
+    background-color: #820AD1;
+    width: 25%;
+    height: 10px;
+    margin: auto;
 }
