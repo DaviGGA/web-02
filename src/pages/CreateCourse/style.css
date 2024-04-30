@@ -1,0 +1,27 @@
+.create-course {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: .5rem;
+}
+
+.create-course-info {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.create-course-videos {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.create-video {
+    width: 100%;
+    display: flex;
+    gap: .75rem;
+}
+

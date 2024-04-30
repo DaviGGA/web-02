@@ -1,6 +1,7 @@
 import { Signin } from './pages/Signin'
 import { Footer } from './components/Footer'
 import { CoursePage } from './pages/CoursePage'
+import { CreateCourse } from './pages/CreateCourse'
 import { FAQ } from './pages/FAQ'
 import { Homepage } from './pages/Homepage'
 import './App.css'
@@ -24,6 +25,10 @@ const routes = [
     path:'/course',
     element: <CoursePage/>
   },
+  {
+    path:'/create-course',
+    element: <CreateCourse/>
+  }
 
 ]
 
