@@ -1,0 +1,11 @@
+.my-profile {
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active,.btn:hover {
+    background: none;
+    border: none;
+}

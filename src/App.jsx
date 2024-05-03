@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Signin } from './pages/Signin'
 import { Footer } from './components/Footer'
 import { CoursePage } from './pages/CoursePage'
