@@ -1,10 +1,9 @@
 import './style.css'
 import { Button } from '../Button'
-import { SearchBar } from '../Searchbar'
 import { UserDropdown } from '../UserDropDown'
 
 
-export function Navbar() {
+export function Navbar(props) {
     function handleCLickPlatformName() {
         window.location.href = '/'
     }
@@ -22,7 +21,7 @@ export function Navbar() {
         <div className='nav-background'>
             <div className="app-navbar">
                 <h4 onClick={handleCLickPlatformName} className="platform-name">HomePage</h4>
-                <SearchBar></SearchBar>
+                <input className='searchbar' onChange={(e) => props.onSearch(e.target.value)} placeholder="Buscar curso..." type="text"/>
                 {renderLogin()}    
             </div>
         </div>

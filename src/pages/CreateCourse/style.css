@@ -1,19 +1,27 @@
 .create-course {
     display: flex;
-    width: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
     margin: 0 auto;
-    gap: .5rem;
+    gap: 2rem;
 }
 
 .create-course-info {
-    width: 25%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: .75rem;
 }
 
 .create-course-videos {
-    width: 45%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.course-videos {
     display: flex;
     flex-direction: column;
     gap: .75rem;
@@ -22,6 +30,19 @@
 .create-video {
     width: 100%;
     display: flex;
+    justify-content: space-between;
     gap: .75rem;
+}
+
+.create-video input {
+    width: 100%;
+}
+
+.add-course-btn {
+    display: none;
+}
+
+.add-course-btn:last-child {
+    display: block;
 }
 

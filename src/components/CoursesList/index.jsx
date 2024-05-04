@@ -47,11 +47,11 @@ const courses = [
 ]
 
 
-export function CoursesList() {
+export function CoursesList(props) {
     return (
         <div className='bg'>
             <div className="course-list">
-                {courses.map((c, i) => {
+                {props.courses.map((c, i) => {
                     return (
                         <CourseIcon
                         img={c.img}
