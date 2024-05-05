@@ -9,9 +9,11 @@ export function Footer() {
 
     return (
         <div className='footer'>
-            <div onClick={handleFAQClick} className='faq'>
-                <FaRegQuestionCircle></FaRegQuestionCircle>
-                <p>F.A.Q</p>
+            <div  className='align-faq'>
+                <div onClick={handleFAQClick} className='faq'>
+                    <FaRegQuestionCircle></FaRegQuestionCircle>
+                    <p>F.A.Q</p>
+                </div>
             </div>
         </div>
     )
