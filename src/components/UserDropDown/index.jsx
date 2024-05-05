@@ -22,7 +22,7 @@ export function UserDropdown() {
 
                 <Dropdown.Menu>
                     <Dropdown.Item onClick={redirectTo('/create-course')}>Criar curso</Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                    <Dropdown.Item onClick={redirectTo('/profile')}>Meu perfil</Dropdown.Item>
                     <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
                 </Dropdown.Menu>
             </Dropdown>
