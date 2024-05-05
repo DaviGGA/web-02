@@ -1,3 +1,7 @@
+.wrapper {
+    height: 100%;
+}
+
 .create-course {
     display: flex;
     flex-direction: column;

@@ -7,6 +7,7 @@ import { FAQ } from './pages/FAQ'
 import { Homepage } from './pages/Homepage'
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { ProfilePage } from './pages/ProfilePage';
 
 
 const routes = [
@@ -29,6 +30,10 @@ const routes = [
   {
     path:'/create-course',
     element: <CreateCourse/>
+  },
+  {
+    path: '/profile',
+    element: <ProfilePage/>
   }
 
 ]

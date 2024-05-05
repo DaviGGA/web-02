@@ -1,0 +1,35 @@
+.profile-wrapper {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    height: 100%;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.profile-img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.profile-data {
+    width: 60%;
+}
+
+.courses {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.courses-wrapper {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    height: 100%;
+}

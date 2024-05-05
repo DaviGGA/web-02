@@ -50,28 +50,28 @@ export function CreateCourse() {
     return (
         <>
             <Navbar></Navbar>
-                <div className='create-course'>
-                    <div className='create-course-info'>
-                        <h2>Crie um novo curso</h2>
-                        <FormInput placeholder="Título" onChange={(e) => setCourseTitle(e.target.value)}></FormInput>
-                        <FormInput placeholder="Descrição" onChange={(e) => setCourseDescription(e.target.value)}></FormInput>
-                    </div>
-                    <div className='create-course-videos'>
-                        <h2>Adicionar vídeos</h2>
-                        <form onSubmit={createCourse} className='course-videos'>
-                            {courseVideos.map(c => c)}
-                            <div style={{display:'flex', justifyContent:'space-between'}}>
-                                <Button onClick={addCourseVideo} text="+"></Button>
-                                <Button text={"Criar curso"}></Button>
-                            </div>
-                        </form>
-                    </div>
-                    <div>
-                        
+                <div className="wrapper">
+                    <div className='create-course'>
+                        <div className='create-course-info'>
+                            <h2>Crie um novo curso</h2>
+                            <FormInput placeholder="Título" onChange={(e) => setCourseTitle(e.target.value)}></FormInput>
+                            <FormInput placeholder="Descrição" onChange={(e) => setCourseDescription(e.target.value)}></FormInput>
+                        </div>
+                        <div className='create-course-videos'>
+                            <h2>Adicionar vídeos</h2>
+                            <form onSubmit={createCourse} className='course-videos'>
+                                {courseVideos.map(c => c)}
+                                <div style={{display:'flex', justifyContent:'space-between'}}>
+                                    <Button onClick={addCourseVideo} text="+"></Button>
+                                    <Button text={"Criar curso"}></Button>
+                                </div>
+                            </form>
+                        </div>
+                        <div>
+                            
+                        </div>
                     </div>
                 </div>
-
-
             <Footer></Footer>       
         </>
     )
